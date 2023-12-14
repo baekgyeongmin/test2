@@ -117,7 +117,11 @@ fig3.update_traces(
     },
     opacity=0.8
 )
-
+for i in range(150):
+    if fig3.data[i].mode == 'lines':
+        fig3.data[i]['name'] = fig3.data[i]['name']+' (path)'
+    else :
+        fig3.data[i]['name'] = fig3.data[i]['name']+' (pickup/dropoff)'
 ```
 
 # 기말고사1-(1), (2)
