@@ -114,7 +114,8 @@ for sd in scatter_data:
 fig3.update_traces(
     line={
         'width':1
-    }
+    },
+    opacity=0.9
 )
 fig3.update_layout(legend_title='평균속력')
 for i in range(150):
@@ -124,7 +125,7 @@ for i in range(150):
         fig3.data[i]['name'] = fig3.data[i]['name']+' (pickup/dropoff)'
 ```
 
-# 기말고사1-(1), (2)
+# 기말고사1-(1),(2)
 
 
 ```{python}
