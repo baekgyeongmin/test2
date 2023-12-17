@@ -113,7 +113,7 @@ for sd in scatter_data:
     fig3.add_trace(sd)
 fig3.update_traces(
     line={
-        'width':0.5
+        'width':0.9
     },
     opacity=1.0
 )
