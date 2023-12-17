@@ -115,7 +115,7 @@ fig3.update_traces(
     line={
         'width':1
     },
-    opacity=0.9
+    opacity=1.0
 )
 fig3.update_layout(legend_title='평균속력')
 for i in range(150):
